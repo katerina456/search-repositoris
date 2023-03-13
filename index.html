@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+    <title>Search</title>
+</head>
+<body>
+    <header class="header container">
+        <form class="form" action="#">
+            <label for="text" class="label">Введите строку для поиска</label> 
+            <input type="text" name="text" id="text" data-flag="no" class="input" placeholder="what you want to find">
+            <button type="submit" class="button">Найти</button>
+        </form>
+        
+
+        <p class="mistake">Поиск не может быть осуществлен по одной букве</p>
+    </header>
+
+    <main class="container main">
+        <h2 class="h2">Результаты поиска</h2>
+
+        <!-- <div class="search-item">
+            <p class="search-text"><a href="#">Название</a></p>
+            <p class="search-text">Что-то</p>
+            <p class="search-text">Что-то</p>
+        </div> -->
+
+        <p class="nothing">Ничего не найдено</p>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
